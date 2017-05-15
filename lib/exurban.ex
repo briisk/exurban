@@ -10,9 +10,9 @@ defmodule ExUrban do
 
   @ua_version 3
 
-  @ua_master Application.get_env(:urban, :ua_master)
-  @ua_key    Application.get_env(:urban, :ua_key)
-  @ua_secret Application.get_env(:urban, :ua_secret)
+  @ua_master Application.get_env(:exurban, :ua_master)
+  @ua_key    Application.get_env(:exurban, :ua_key)
+  @ua_secret Application.get_env(:exurban, :ua_secret)
 
   @endpoint "https://go.urbanairship.com/api/"
 

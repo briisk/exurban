@@ -1,6 +1,6 @@
 use Mix.Config
 
-config :urban, ua_master: "xxx"
-config :urban, ua_key: "xxx"
-config :urban, ua_secret: "xxx"
-config :urban, ua_timeout: 20000 # 20sec
+config :exurban, ua_master: "xxx"
+config :exurban, ua_key: "xxx"
+config :exurban, ua_secret: "xxx"
+config :exurban, ua_timeout: 20000 # 20sec
