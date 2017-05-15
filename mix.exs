@@ -8,7 +8,7 @@ defmodule ExUrban.Mixfile do
         app: :exurban,
         name: "exurban",
         version: "0.0.1-dev",
-        elixir: "~> 1.0.1",
+        elixir: "~> 1.4",
         deps: deps,
         package: package,
         description: @description,
@@ -22,7 +22,7 @@ defmodule ExUrban.Mixfile do
 
   defp deps do
     [
-        {:httpoison, "~> 0.5.0"},
+        {:httpoison, "~> 0.11"},
         {:jazz, "~> 0.2.1"}
     ]
   end
